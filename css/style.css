@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Start Header Section */
+
+/* Start Header Intro Section */
+
+.header-intro-cs {
+  background: darkblue;
+  color: #fff;
+  display: none;
+}
+
+.header-intro-cs .info-cs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .visible-lg-cs {
+    display: block;
+  }
+}
+
+/* End Header Intro Section */
+
+/* Start Banner Section */
+
+.carousel-item {
+  height: 60vh;
+}
+
+.banner-1-cs,
+.banner-2-cs,
+.banner-3-cs {
+  background-image: url("../assets/img/banner/banner4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-2-cs {
+  background-image: url("../assets/img/banner/banner5.jpg");
+}
+
+.banner-3-cs {
+  background-image: url("../assets/img/banner/banner6.jpg");
+}
+
+.btn-blue-cs {
+  background-color: darkblue;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 25px;
+}
+
+.btn-blue-cs:hover {
+  color: darkblue;
+  border-color: white;
+}
+
+/* End Banner Section */
+
+/* End Header Section */
+
+/* ****************** */
+
+/* Start Features Section */
+
+.iconbox-cs {
+  background-color: #fff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  padding: 40px 30px;
+
+  position: relative;
+}
+
+.icon-cs {
+  width: 70px;
+  height: 70px;
+  background-color: darkcyan;
+  color: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: calc(50% - 35px);
+  top: -35px;
+
+  transition: all 0.3s;
+}
+
+.iconbox-cs:hover .icon-cs {
+  background: none;
+  color: darkcyan;
+  border: 2px solid darkcyan;
+}
+
+/* End Features Section */
+
+/* ******************** */
+
+/* Start Info Section */
+
+.info-text-cs a.btn-blue-cs:hover {
+  color: darkblue;
+  border-color: black;
+}
+
+.from-left-cs {
+  animation: my-left 2s;
+}
+
+.from-right-cs {
+  animation: my-right 2s;
+}
+
+@keyframes my-left {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes my-right {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/* End Info Section */
+
+/* **************** */
+
+/* Start Adv Section */
+
+.adv-cs {
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/img/banner/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  color: #fff;
+  text-shadow: -5px 0 10px #000;
+
+  display: flex;
+  align-items: center;
+}
+
+/* End Adv Section */
+
+/* *************** */
+
+/* Start Departments Section */
+
+.department-boxes {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.dapartment-boxes img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.department-boxes .content-cs {
+  width: 80%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+
+  position: absolute;
+  left: 10%;
+  bottom: -86%;
+
+  transition: all 0.5s;
+}
+
+.department-boxes a {
+  background-color: steelblue;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+
+  display: inline-block;
+  margin-top: 5px;
+  opacity: 0;
+
+  transition: all 0.5s;
+  transition-delay: 0.25s;
+}
+
+.department-boxes i {
+  margin-right: 7px;
+}
+
+.department-boxes:hover .content-cs {
+  width: 100%;
+  height: 70%;
+
+  border-radius: 10px 10px 0 0;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.department-boxes:hover a {
+  opacity: 1;
+}
+
+.department-boxes img {
+  transition: transform 0.5s;
+}
+
+.department-boxes:hover img {
+  transform: scale(1.2);
+}
+
+.department-boxes h3 {
+  color: steelblue;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 5px 10px;
+
+  transition: all 0.5s;
+  transition-delay: 0.1s;
+}
+
+.department-boxes:hover h3 {
+  font-size: 20px;
+}
+
+/* .department-boxes p {
+  width: 80%;
+  margin: 10px auto;
+} */
+
+/* End Departments Section */
+
+/* *********************** */
+
+/* Start Pricing Section */
+
+.pricing-card-cs {
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 8px rgba(0, 0, 0, 0.1);
+
+  padding-bottom: 20px;
+
+  transition: all 0.5s;
+}
+
+.pricing-card-cs .pricing-header-cs {
+  padding: 30px 20px;
+  border-bottom: 2px solid #f3f3f3;
+
+  transition: color 0.5s;
+  /* left 'background' property because 
+  'background' transition doesn't work. */
+}
+
+.pricing-card-cs .price-cs {
+  color: steelblue;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 12px 0 4px 0;
+}
+
+.pricing-feature-cs ul li {
+  list-style: none;
+}
+
+.btn-pricing-cs {
+  background: linear-gradient(1turn, skyblue, blue);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+
+  transition: all 0.5s;
+}
+
+.pricing-card-cs:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+}
+
+.pricing-card-cs:hover .pricing-header-cs {
+  background: linear-gradient(-120deg, skyblue, blue);
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+.pricing-card-cs .btn-pricing-cs:hover {
+  background: linear-gradient(0.5turn, skyblue, blue);
+  color: #fff;
+}
+
+.move-from-left {
+  animation: left-to-center 1.5s;
+}
+
+.move-from-bottom {
+  animation: bottom-to-center 1.5s;
+}
+
+.move-from-right {
+  animation: right-to-center 1.5s;
+}
+
+@keyframes left-to-center {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes bottom-to-center {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes right-to-center {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .move-from-left {
+    animation: left-to-center 1.5s linear;
+  }
+
+  .move-from-bottom {
+    animation: right-to-center 1.5s linear;
+  }
+
+  .move-from-right {
+    animation: bottom-to-center 1.5s linear;
+  }
+}
+
+/* End Pricing Section */
+
+/* ******************* */
+
+/* Start Join Us Section */
+
+.custom-form-cs {
+  background: #ffff;
+  border: 1px solid #dddd;
+  padding: 25px;
+  border-radius: 7px;
+}
+
+/* End Join Us Section */
+
+/* ******************* */
+
+/* Start Footer Section */
+
+.social-icon-cs a {
+  color: #fff;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+
+  padding: 5px 8px;
+  margin: 0 5px;
+
+  transition: background-color 0.25s;
+}
+
+.social-icon-cs a:nth-of-type(1) {
+  padding: 5px 10px;
+}
+
+.social-icon-cs a:nth-child(3) {
+  padding: 5px 6px;
+}
+
+.social-icon-cs a:hover {
+  background-color: rgb(0, 100, 255);
+}
+
+.footer-link-cs {
+  color: #d8d8d8;
+  font-size: 14px;
+  text-decoration: none;
+
+  padding-bottom: 2px;
+
+  transition: all 0.25s;
+}
+
+.footer-link-cs:hover {
+  color: rgb(0, 100, 255);
+  border-bottom: 0.5px solid #aaa;
+  letter-spacing: 0.5px;
+}
+
+/* End Footer Section */
+
+/* ****************** */
+
+/* Start Progress Percentage Circle */
+
+#progress {
+  width: 55px;
+  height: 55px;
+  background: steelblue;
+  border-radius: 50%;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+
+  display: grid;
+  place-items: center;
+
+  z-index: 10;
+}
+
+.progress-value-cs {
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  background-color: #fff;
+  border-radius: 50%;
+  font-weight: bold;
+
+  display: grid;
+  place-items: center;
+}
+
+/* End Progress Percentage Circle */

@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mention Hospital</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/fav/favicon2.png" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css"
+      integrity="sha512-XWTTruHZEYJsxV3W/lSXG1n3Q39YIWOstqvmFsdNEEQfHoZ6vm6E9GK2OrF6DSJSpIbRbi+Nn0WDPID9O7xB2Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome v5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- jQuery UI CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+      integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- lightSlider CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"
+      integrity="sha512-yJHCxhu8pTR7P2UgXFrHvLMniOAL5ET1f5Cj+/dzl+JIlGTh5Cz+IeklcXzMavKvXP8vXqKMQyZjscjf3ZDfGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Start Progress Percentage Circle -->
+    <div id="progress">
+      <span class="progress-value-cs">0%</span>
+    </div>
+    <!-- End Progress Percentage Circle -->
+
+    <!-- Start Header Section -->
+    <header>
+      <!-- Start Header Intro -->
+      <section class="header-intro-cs visible-lg-cs">
+        <div class="container info-cs py-2">
+          <table>
+            <tr>
+              <td>
+                <i class="fas fa-user-clock me-2" style="font-size: 25px"></i>
+              </td>
+              <td>
+                Mon - Sat 8:00 to 18:00
+                <br />
+                Sunday CLOSED
+              </td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td><i class="fas fa-envelope me-1"></i></td>
+              <td>
+                <a href="mailto:admin@mentionhospital.com" class="nav-link">
+                  admin@mentionhospital.com
+                </a>
+              </td>
+            </tr>
+          </table>
+
+          <table>
+            <tr>
+              <td><i class="fas fa-bus me-1"></i></td>
+              <td>Van facility available for pick and drop</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <!-- End Header Intro -->
+
+      <!-- Start Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid container-lg px-sm-4">
+          <a href="index.html" class="navbar-brand fw-bold">
+            <img src="./assets/img/fav/favicon2.png" width="50px" alt="" />
+            Mention Hospital
+          </a>
+          <button
+            class="navbar-toggler px-2"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="mynav" class="navbar-collapse collapse px-sm-2">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link fw-bold">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#features" class="nav-link fw-bold">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#info" class="nav-link fw-bold">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#adv" class="nav-link fw-bold">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a href="#departments" class="nav-link fw-bold">Department</a>
+              </li>
+              <li class="nav-item">
+                <a href="#premises" class="nav-link fw-bold">Premises</a>
+              </li>
+              <li class="nav-item">
+                <a href="#pricing" class="nav-link fw-bold">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#faq" class="nav-link fw-bold">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End Navbar -->
+
+      <!-- Start Banner Section -->
+      <section>
+        <div id="mycarousel" class="carousel" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              class="active"
+              data-bs-target="#mycarousel"
+              data-bs-slide-to="0"
+            ></li>
+            <li class="" data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+            <li class="" data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item banner-1-cs active">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block mb-5">
+                  <h1 class="text-uppercase display-4">
+                    Providing Health Care Solution
+                  </h1>
+                  <p class="lead">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                  <a href="#" class="btn btn-blue-cs">Our Service</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item banner-2-cs">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block mb-5">
+                  <h1 class="text-uppercase display-4">
+                    Providing Total Lab Solution
+                  </h1>
+                  <p class="lead">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                  <a href="#" class="btn btn-blue-cs">Our Service</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item banner-3-cs">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block mb-5">
+                  <h1 class="text-uppercase display-4">
+                    Your Healthy Life Is Our Priority
+                  </h1>
+                  <p class="lead">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s.
+                  </p>
+                  <a href="#" class="btn btn-blue-cs">Our Service</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            href="#mycarousel"
+            class="carousel-control-prev"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a
+            href="#mycarousel"
+            class="carousel-control-next"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
+      <!-- En Banner Section -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Features Section -->
+    <section id="features" class="text-center pt-5">
+      <div class="container">
+        <!-- Start Title -->
+        <div class="row" style="margin-bottom: 35px">
+          <div class="col-md-12">
+            <h4>Our Features</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+        <!-- End Title -->
+
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="iconbox-cs">
+              <div class="icon-cs"><i class="fas fa-ambulance fa-2x"></i></div>
+              <h4>Emergency Care</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="iconbox-cs">
+              <div class="icon-cs">
+                <i class="fas fa-stethoscope fa-2x"></i>
+              </div>
+              <h4>Emergency Care</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="iconbox-cs">
+              <div class="icon-cs">
+                <i class="fas fa-hospital-user fa-2x"></i>
+              </div>
+              <h4>Emergency Care</h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Features Section -->
+
+    <!-- Start Info Section -->
+    <section id="info" class="py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center info-text-cs from-left-cs">
+            <h4 class="text-uppercase">
+              We Ensure Medical Care For You with Best Quality Service
+              Guaranteed
+            </h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </p>
+            <a href="#" class="btn btn-blue-cs btn-lg">Make Appointment</a>
+          </div>
+
+          <div
+            class="col-md-6 text-center text-lg-end info-pic-cs from-right-cs"
+          >
+            <img src="./assets/img/users/faqs.png" width="300px" alt="faqs" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Info Section -->
+
+    <!-- Start Adv Section -->
+    <section id="adv" class="adv-cs py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-uppercase display-6">Need Top Health Care?</h3>
+            <p class="lead">Top Quality Health Care in your city</p>
+            <h3>
+              <a href="tel:+95766200300" class="nav-link"
+                >Call Now +95766200300</a
+              >
+            </h3>
+          </div>
+          <div class="col-md-6 mt-2">
+            <a
+              href="#"
+              id="modal-video"
+              data-bs-toggle="modal"
+              data-bs-target="#videomodal"
+              data-video="https://www.youtube.com/embed/2kyPgu03pgE"
+            >
+              <i class="fas fa-play fa-2x"></i>
+            </a>
+            <h1>See What We Do</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Adv Section -->
+
+    <!-- Start Departments Section -->
+    <section id="departments" class="py-5">
+      <div class="container">
+        <!-- Start Title -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4>Our Departments</h4>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alternation in some form.
+            </p>
+          </div>
+        </div>
+        <!-- End Title -->
+
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="department-boxes">
+              <div>
+                <img src="./assets/img/gallery/dept-03.jpg" alt="dept-03" />
+              </div>
+              <div class="content-cs">
+                <h3 class="mt-1">ORTHOPEDICS</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                <a href="#"><i class="fas fa-heart"></i>Support</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="department-boxes">
+              <div>
+                <img src="./assets/img/gallery/dept-06.jpg" alt="dept-06" />
+              </div>
+              <div class="content-cs">
+                <h3 class="mt-1">DENTAL</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                <a href="#"><i class="fas fa-heart"></i>Support</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="department-boxes">
+              <div>
+                <img src="./assets/img/gallery/dept-04.jpg" alt="dept-04" />
+              </div>
+              <div class="content-cs">
+                <h3 class="mt-1">SURGERY</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                <a href="#"><i class="fas fa-heart"></i>Support</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="department-boxes">
+              <div>
+                <img src="./assets/img/gallery/dept-05.jpg" alt="dept-05" />
+              </div>
+              <div class="content-cs">
+                <h3 class="mt-1">UROLOGY</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                <a href="#"><i class="fas fa-heart"></i>Support</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="department-boxes">
+              <div>
+                <img src="./assets/img/gallery/dept-01.jpg" alt="dept-01" />
+              </div>
+              <div class="content-cs">
+                <h3 class="mt-1">CARDIOLOGY</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                <a href="#"><i class="fas fa-heart"></i>Support</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3">
+            <div class="department-boxes">
+              <div>
+                <img src="./assets/img/gallery/dept-02.jpg" alt="dept-02" />
+              </div>
+              <div class="content-cs">
+                <h3 class="mt-1">NEUROLOGY</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+                <a href="#"><i class="fas fa-phone"></i>Contact</a>
+                <a href="#"><i class="fas fa-heart"></i>Support</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Departments Section -->
+
+    <!-- Start Premises Section -->
+    <section id="premises" class="py-5">
+      <div class="container-fluid">
+        <!-- Start Title -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4>Facilities and Premises</h4>
+            <p>
+              It is a long established that a reader will be distracted by the
+              readable content of a page when looking at its layout.
+            </p>
+          </div>
+        </div>
+        <!-- End Title -->
+
+        <div class="row">
+          <div class="col-md-12">
+            <ul id="lightslider">
+              <li><img src="./assets/img/gallery/01.jpg" alt="01" /></li>
+              <li><img src="./assets/img/gallery/02.jpg" alt="02" /></li>
+              <li><img src="./assets/img/gallery/03.jpg" alt="03" /></li>
+              <li><img src="./assets/img/gallery/04.jpg" alt="04" /></li>
+              <li><img src="./assets/img/gallery/05.jpg" alt="05" /></li>
+              <li><img src="./assets/img/gallery/06.jpg" alt="06" /></li>
+              <li><img src="./assets/img/gallery/07.jpg" alt="07" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Premises Section -->
+
+    <!-- Start Pricing Section -->
+    <section id="pricing" class="py-3">
+      <div class="container">
+        <!-- Start Title -->
+        <div class="row">
+          <div class="col-md-12 text-center mb-4">
+            <h4 class="mb-1">Our Pricing</h4>
+            <span class="small">Our Best Price Offer</span>
+            <p class="mt-3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+        <!-- End Title -->
+
+        <div class="row">
+          <div class="col-lg-4 text-center card-one mb-md-4">
+            <div class="pricing-card-cs rounded-3">
+              <div class="pricing-header-cs">
+                <h3>Blood Test</h3>
+              </div>
+              <div class="price-cs">
+                <span><sup>$</sup>145</span>
+              </div>
+              <div class="pricing-feature-cs">
+                <ul>
+                  <li>Cholesterol and lipid tests</li>
+                  <li>Oestrogen blood test</li>
+                  <li>Thyroid function tests</li>
+                  <li>Kidney function tests</li>
+                  <li>C-reactive protein (CRP) test</li>
+                  <li>Oestrogen blood test</li>
+                  <li>Thyroid function tests</li>
+                </ul>
+              </div>
+              <div class="pricing-footer-cs">
+                <a href="#" class="btn btn-pricing-cs">Appointment Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-center card-two mb-md-4">
+            <div class="pricing-card-cs rounded-3">
+              <div class="pricing-header-cs">
+                <h3>Body CT Scan</h3>
+              </div>
+              <div class="price-cs">
+                <span><sup>$</sup>350</span>
+              </div>
+              <div class="pricing-feature-cs">
+                <ul>
+                  <li>Cholesterol and lipid tests</li>
+                  <li>Oestrogen blood test</li>
+                  <li>Thyroid function tests</li>
+                  <li>Kidney function tests</li>
+                  <li>C-reactive protein (CRP) test</li>
+                  <li>Oestrogen blood test</li>
+                  <li>Thyroid function tests</li>
+                </ul>
+              </div>
+              <div class="pricing-footer-cs">
+                <a href="#" class="btn btn-pricing-cs">Appointment Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 text-center card-three">
+            <div class="pricing-card-cs rounded-3">
+              <div class="pricing-header-cs">
+                <h3>Urine Test</h3>
+              </div>
+              <div class="price-cs">
+                <span><sup>$</sup>125</span>
+              </div>
+              <div class="pricing-feature-cs">
+                <ul>
+                  <li>Cholesterol and lipid tests</li>
+                  <li>Oestrogen blood test</li>
+                  <li>Thyroid function tests</li>
+                  <li>Kidney function tests</li>
+                  <li>C-reactive protein (CRP) test</li>
+                  <li>Oestrogen blood test</li>
+                  <li>Thyroid function tests</li>
+                </ul>
+              </div>
+              <div class="pricing-footer-cs">
+                <a href="#" class="btn btn-pricing-cs">Appointment Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing Section -->
+
+    <!-- Start Join Us Section -->
+    <section id="faq" class="py-5">
+      <div class="container">
+        <!-- Start Title -->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h4 class="text-uppercase">Join Us Today</h4>
+            <p class="lead">
+              We build awesome course & university sites! Don't miss out, join
+              us today!
+            </p>
+          </div>
+        </div>
+        <!-- End Title -->
+
+        <div class="row">
+          <div class="col-md-5 col-sm-12 custom-form-cs">
+            <form action="" method="">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3>Instructor Form</h3>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control mb-1 mb-md-2"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control mb-1 mb-md-2"
+                    placeholder="Email"
+                  />
+                  <input
+                    type="number"
+                    name="phone"
+                    id="phone"
+                    class="form-control mb-1 mb-md-2"
+                    placeholder="Phone"
+                  />
+                  <textarea
+                    name="bio"
+                    id="bio"
+                    class="form-control mb-1 mb-md-2"
+                    rows="5"
+                    placeholder="Your Bio"
+                  ></textarea>
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg py-2">
+                      Join Us Today
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-md-7 col-sm-12">
+            <div id="accordion">
+              <h3>Why should I join your team?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+
+              <h3>What would you gain on your team?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+
+              <h3>Can I get paid?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+
+              <h3>How many days I need to work?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+
+              <h3>How can I give support for students?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+
+              <h3>Membership is free to join?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+
+              <h3>Where I need to join the team?</h3>
+              <div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Join Us Section -->
+
+    <!-- Start Footer Section -->
+    <footer id="footer" class="bg-dark px-5">
+      <div class="container-fluid">
+        <div class="row text-light pt-4">
+          <!-- Address -->
+          <div class="col-lg-3 col-sm-6 mb-3">
+            <h5 class="mb-3">
+              <img
+                src="./assets/img/fav/favicon2.png"
+                width="70px"
+                alt="favicon2"
+                class="me-1"
+              />
+              Mention Hospital
+            </h5>
+            <ul class="list-inline">
+              <li><i class="fas fa-phone"></i> +95 94220 42225</li>
+              <li><i class="fas fa-envelope"></i> admin@mentionhospital.com</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 60st Street, Mandalay,
+                Myanmar
+              </li>
+            </ul>
+          </div>
+
+          <!-- Visit Us -->
+          <div class="col-lg-3 col-sm-6 mb-3">
+            <h5 class="mb-3">Visit Us</h5>
+            <div class="social-icon-cs">
+              <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <!-- Support Us -->
+          <div class="col-lg-3 col-sm-6 mb-3">
+            <h5 class="mb-3">Support Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="footer-link-cs">DOCUMENTATION</a></li>
+              <li><a href="#" class="footer-link-cs">FAQs</a></li>
+              <li><a href="#" class="footer-link-cs">CONDITION</a></li>
+            </ul>
+          </div>
+
+          <!-- Download Our App -->
+          <div class="col-lg-3 col-sm-6 mb-3">
+            <h5>Download Our App</h5>
+            <ul class="list-inline">
+              <li>
+                <a href="#android-app" class="nav-link">Google Playstore</a>
+              </li>
+              <li><a href="#ios-app" class="nav-link">Apple App Store</a></li>
+              <li><a href="#direct-dl" class="nav-link">Direct Download</a></li>
+            </ul>
+          </div>
+
+          <div class="d-flex justify-content-center border-top pt-3">
+            <p>
+              &copy;
+              <span id="getyear"></span> Copyright, Inc. All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- Start Modal Area -->
+    <div id="videomodal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+            <iframe src="" width="100%" height="350px" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal Area -->
+
+    <!-- jQuery -->
+    <script
+      type="text/javascript"
+      src="./assets/libs/jquery-3.6.0.min.js"
+    ></script>
+
+    <!-- jQuery UI JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+      integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"
+      integrity="sha512-9GacT4119eY3AcosfWtHMsT5JyZudrexyEVzTBWV3viP/YfB9e2pEy3N7WXL3SV6ASXpTU0vzzSxsbfsuUH4sQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- lightSlider JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"
+      integrity="sha512-Gfrxsz93rxFuB7KSYlln3wFqBaXUc1jtt3dGCp+2jTb563qYvnUBM/GP2ZUtRC27STN/zUamFtVFAIsRFoT6/w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>
